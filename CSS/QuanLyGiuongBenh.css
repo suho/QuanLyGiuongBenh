@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+	width:100%;
+	height:auto;
+	
+	
+}
+<!-- header begin-->
+.header{
+	width:100;
+	height:auto;
+}
+.header_container{
+	width:960px;
+	height:auto;
+	margin:auto;
+}
+	.logo{
+		width:100%;
+		height:200px;
+		background:#0C6;
+	}
+	.menu{
+		width:100%;
+		height:35px;
+		line-height:35px;
+		color:#0F0;
+		font-family:Tahoma, Geneva, sans-serif;
+		position:relative;
+		display:inline-block;
+		background:#666;
+		
+	}
+	.menu ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+	}
+	.menu>ul>a>li{
+		text-decoration:none;
+		padding-right:10px;
+		padding-left:10px;
+	}
+	.menu ul a li:hover{
+		background:#9C0;
+	}
+	.menu ul li{
+		position:relative;
+		float:left;
+		padding-right:10px;
+		padding-left:10px;
+		
+	}
+	.menu ul li:hover{
+		background:#990;
+	}
+	.menu ul li:hover ul{
+		display:block;
+		background:#36F;
+		color:#906;
+		
+		
+	}
+	.menu ul li ul{
+		position:absolute;
+		display:none;
+		left:0;
+	}
+	.menu ul li ul li{
+		white-space:nowrap;
+		float:none;
+	}
+		.timkiem{
+			float:right;
+			width:320px;
+		}
+		.timkiem>input{
+			border-radius:10px;
+			border:1px solid #000;
+			height:20px;
+		}
+		.timkiem>button{
+			border-radius:10px;
+			background:#0F9;
+		}
+		.timkiem>button:hover{
+			background:#099;
+		}
+<!-- header end-->
+<!-- body begin-->
+.body{
+	width:100%;
+	height:auto;
+	display:inline-block;
+}
+.body_center{
+	width:960px;
+	height:auto;
+	margin:auto;
+	background:#999;
+	
+	
+}
+	.body_center_container{
+		width:100%;
+		height:auto;
+		display:inline-block;
+	}
+	.content{
+		width:70%;
+		min-height:400px;
+		float:left;
+	}
+	.content_top{
+		width:95%;
+		display:inline-block;
+		height:auto;
+		margin-left:20px;
+		background:#F00;
+		margin-bottom:10px;
+		margin-top:20px;
+		
+	}
+		.content_top_left{
+			width:70%;
+			height:auto;
+			min-height:130px;
+			float:left;
+			background:#9F0;
+			margin-right:5px;
+			box-shadow:0 0 15px #FF0000;
+		}
+		.content_top_right{
+			width:25%;
+			height:auto;
+			float:left;
+			background:#9F0;
+		}
+	
+	.content_bottom{
+		width:95%;
+		min-height:300px;
+		margin-left:20px;
+		
+		background:#06F;
+	}
+	.advertisement{
+		width:28%;
+		height:auto;
+		min-height:500px;
+		margin-left:5px;
+		float:left;
+		background:#0F9;
+		margin-top:10px;
+	}
+
+<!-- header end-->	
+.CLEAR{
+	clear:both;
+}

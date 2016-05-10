@@ -1,0 +1,48 @@
+
+<form action="../PHP/ThemMoiBenhNhan.php" method="post">
+<table>
+    <tr>
+    	<td>Tên bệnh nhân :</td>
+        <td> <input  type="text" name="tenBenhNhan" /></td>
+    </tr>
+    <tr>
+    	<td>Số CMND :</td>
+        <td> <input  type="text" name="CMND" /></td>
+    </tr>
+     <tr>
+    	<td>Số điện thoại :</td>
+        <td> <input  type="text" name="soDienThoai" /></td>
+    </tr>
+    <tr>
+    	<td>Địa chỉ :</td>
+        <td>
+        	<textarea name="diaChi" cols="30" rows="3">
+            </textarea> 
+        </td>
+    </tr>
+    <tr>
+    	<td>Trạng thái bệnh :</td>
+        <td>
+        	<select name="trangThaiBenh">
+            	<option value="0">Bệnh nhẹ</option>
+                <option value="1">Bệnh nặng</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+    	<td>Ngày nhập viện :</td>
+        <td> <input  type="text" name="ngayNhapVien" /></td>
+    </tr>
+    <tr>
+    	<td>Mã giường :</td>
+        <td> <input  type="text" name="maGiuong" /></td>
+    </tr>
+    <tr align="center">
+    	<td colspan="2">
+        	<input type="submit" name="add" value="Add	"/>&nbsp;&nbsp;&nbsp;
+            <input type="button" name="cancel" value="Cancel"/>
+        </td>
+        
+    </tr>
+</table>
+</form>
